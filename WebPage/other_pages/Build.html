@@ -1,1 +1,36 @@
-
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <title></title>
+  </head>
+  <body>
+    <div class='main'>
+      <p>CS1102 Project (2022-2023 Semester A)</p>
+      <p>Project Group for Lab1_Tue_1600 1</p>
+    <h1 class='center'>Building Neural Network</h1>
+    <h2 class='center'>At this step, we need to define a function for training a neural network, a function for evaluating the built model, and a function for saving the most accurate model.</h2>
+    <h2 class='center'>On a new python file, import all the modules we need</h2>
+    <img src="../images/modules.jpg" alt="">
+    <h2 class='center'>Write the path for training and validation images and the mean and standard deviation from the previous step.</h2>
+    <img src="../images/pathmeanstd.jpg" alt="">
+    <h2 class='center'>Resize the validation and training images, and create loaders from the datasets</h2>
+    <img src="../images/trainvalidationloader.jpg" alt="">
+    <h2 class='center'>Some computers support the Cuda tool, which makes the training better. We need to set the device.</h2>
+    <img src="../images/setdevice.jpg" alt="">
+    <h2 class='center'>Before writing the code for training the neural network, we need to write a function for evaluating the model.
+    The function loads the validation dataset and returns the accuracy.</h2>
+    <img src="../images/evaluation.jpg" alt="">
+    <h2 class='center'>We also need to write a function that saves the best model.</h2>
+    <img src="../images/save.jpg" alt="">
+    <h2 class='center'>For raw model architecture, we are using resnet18. Then, call all the defined functions.</h2>
+    <img src="../images/callfunc.jpg" alt="">
+    <h2 class='center'>After building several models, our code saves the most accurate model.</h2>
+    <img src="../images/results.jpg" alt="">
+    <button type="button" name="button" class='back' onclick="location.href='dataset.html'">Back</button>
+    <button type="button" name="button" class='next' onclick="location.href='classify.html'">Next</button>
+    <button type="button" name="button" class='homepage' onclick="location.href='../index.html'">Home Page</button>
+  </div>
+  </body>
+</html>
